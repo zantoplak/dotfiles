@@ -75,6 +75,8 @@ set laststatus=2
 set incsearch
 set splitbelow splitright
 set clipboard+=unnamedplus
+set splitbelow
+set splitright
 
 hi StatusLine ctermbg=254 ctermfg=24
 hi StatusLineNC ctermbg=24 ctermfg=254
@@ -98,10 +100,10 @@ let mapleader=" "
 nnoremap <leader>n :NERDTreeFocus<CR>
 
 " Remap window moving
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w><C-h>
+nnoremap <C-j> <C-w><C-j> 
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
 
 " Split size adjusting easier
 noremap <silent> <C-Left> :vertical resize -3<CR>
