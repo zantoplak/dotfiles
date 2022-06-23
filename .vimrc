@@ -68,6 +68,7 @@ let g:vim_markdown_folding_disabled = 1
 
 set number relativenumber
 syntax on
+set path+=**
 set wildmenu
 set mouse=a
 set hlsearch
