@@ -39,6 +39,8 @@ Plugin 'junegunn/fzf.vim'
 "Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'ryanoasis/vim-devicons'
+"Plugin 'francoiscabrol/ranger.vim'
+Plugin 'iberianpig/ranger-explorer.vim'
 
 "
 " All of your Plugins must be added before the following line
@@ -101,6 +103,10 @@ let mapleader=" "
 
 " Remap NerdTree plugin
 nnoremap <leader>n :NERDTreeFocus<CR>
+
+" Remap Ranger
+let g:ranger_map_keys = 0
+nnoremap <leader>r :RangerOpenCurrentDir<CR>
 
 " Remap window moving
 nnoremap <C-h> <C-w><C-h>
