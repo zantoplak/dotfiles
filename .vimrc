@@ -1,5 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
+set encoding=UTF-8
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -37,6 +38,7 @@ Plugin 'junegunn/fzf.vim'
 "Plugin 'vim-pandoc/vim-pandoc'
 "Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'ycm-core/YouCompleteMe'
+Plugin 'ryanoasis/vim-devicons'
 
 "
 " All of your Plugins must be added before the following line
